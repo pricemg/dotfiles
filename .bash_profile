@@ -1,5 +1,5 @@
 # Check for bashrc file
-DOTFILE_DIR=$HOME/dotfiles
-if [ -f $DOTFILE/.bashrc ]; then
-    source $DOTFILE/.bashrc
+DOTFILES=$HOME/Documents/Repositories/dotfiles
+if [ -f $DOTFILES/.bashrc ]; then
+    source $DOTFILES/.bashrc
 fi

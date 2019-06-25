@@ -9,7 +9,7 @@ if [ -f $DOTFILES/.bash_aliases ]; then
 fi
 
 # This allows tab to autocomplete all git commands.
-if [ -f $DOTFILES/.bash_git.completion]; then
+if [ -f $DOTFILES/.bash_git.completion ]; then
     source $DOTFILES/.bash_git.completion
 fi
 

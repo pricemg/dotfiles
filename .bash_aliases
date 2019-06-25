@@ -1,5 +1,6 @@
 # Bring colour to the ls command
-alias ls='ls --color=auto'
+alias ls='ls -G'
+#alias ls='ls --color=auto'
 LS_COLORS='di=0;31:fi=0:ex=0;32'
 export LS_COLORS
 
